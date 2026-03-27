@@ -1,26 +1,18 @@
-<h2>Login</h2>
-<input id="username" placehoder="Username">
-<input id="password" placehoder="Password">
-<button onclick="login()">Login</button>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Job Tracker</h1>
+    
+    <input id="username" placeholder="Username">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="register()">Register</button>
+    <button onclick="login()">Login</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
 
-<h2>Register</h2>
-<button onclick="register()">Register</button>
-
-<script src="script.js"></script>
-
-<h2>Job Tracker</h2>
-
-<input id="company" placeholder="Company">
-<input id="role" placeholder="Role">
-<select id="status">
-  <option>Applied</option>
-  <option>Interview</option>
-  <option>Offer</option>
-  <option>Rejected</option>
-</select>
-
-<button onclick="addJob()">Add Job</button>
-
-<ul id="jobs"></ul>
-
-<script src="script.js"></script>
